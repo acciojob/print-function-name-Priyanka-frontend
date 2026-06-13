@@ -1,5 +1,5 @@
-function AccioJob() {
-	alert(arguments.callee.name)
+function functionName() {
+    alert(functionName.name);
 }
 
-AccioJob();
+window.functionName = functionName;
